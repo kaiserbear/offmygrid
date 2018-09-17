@@ -1,0 +1,39 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: url('/img/bg.jpeg');
+	background-size: cover;
+	font-family: 'Roboto Slab', serif;
+
+}
+
+.main {
+	text-align: center;
+	img {
+		width: 81%;
+	}
+	h2, h3, h4 {
+		color: white;
+		background: black;
+	}
+	h2 {
+		font-size: 4rem;
+	}
+	h3 {
+		font-size: 3rem;		
+	}
+	.div {
+		margin: 2rem 0;
+	}
+}
+
+
+
+iframe {
+	width: 100%;
+	// margin-left: 10%;
+}
