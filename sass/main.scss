@@ -30,6 +30,7 @@ body {
 	}
 	h4 {
 		font-size: 1.4rem;
+		margin: 2rem 0 0 0;
 	}
 	hr {
 		border: 2px solid black;
@@ -39,15 +40,59 @@ body {
 		padding: 2rem 1rem;
 		background: white;
 		ul {
-			margin: 0;
+			margin: 2rem 0 3rem;
 			padding: 0;
 			li {
 				list-style:none;
 				font-size: 1.4rem;	
 			}
 		}
+
+	}
+	.mailchimp {
+	    // width: 380px;
+	    margin: 0 auto;
+	    z-index: 2;
+	    position: relative;
+
+	    h3 {
+	    	margin: 0;
+	    	font-size: 16px;
+	    	margin-bottom: 1rem;
+	    }
+
+	    input[type="email"] {
+	        width: 70%;
+	        display: inline-block;
+	        &:focus {
+	            box-shadow: none;
+	            border-bottom: 1px solid blue;
+	        }
+	    }
+
+	    button {
+	        background: #0E233A;
+	        color: white;
+	        font-weight: normal;
+	        border: none;
+	        border-radius: 5px;
+	        display: inline-block;
+	        padding: 7px 0.4rem;
+	        width: 25%;
+	        position: relative;
+	        left: 0;
+	        cursor: pointer;
+	    }
+
+	    .response {
+	        color: grey;
+	        font-size: 12px;
+	    }
 	}
 }
+
+
+
 
 
 
