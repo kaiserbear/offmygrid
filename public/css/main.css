@@ -6316,7 +6316,7 @@ html, body {
   height: 100%; }
 
 body {
-  background: url("/img/bg.jpeg");
+  background: url("https://s3.eu-west-2.amazonaws.com/offgridmusic/bg.jpeg");
   background-size: cover;
   font-family: 'Roboto Slab', serif; }
 
