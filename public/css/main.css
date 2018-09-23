@@ -6318,11 +6318,12 @@ html, body {
 body {
   background: url("/img/bg.jpeg");
   background-size: cover;
-  font-family: 'Roboto Slab', serif; }
+  font-family: 'Roboto Slab', serif;
+  padding-bottom: 4rem; }
 
 .main {
   text-align: center;
-  padding: 0 2rem; }
+  padding: 0 2rem 150px 2rem; }
   .main img {
     width: 70%;
     padding: 1rem; }
@@ -6348,7 +6349,6 @@ body {
         list-style: none;
         font-size: 1.4rem; }
   .main .mailchimp {
-    margin: 0 auto;
     z-index: 2;
     position: relative; }
     .main .mailchimp h3 {
@@ -6377,5 +6377,12 @@ body {
       color: grey;
       font-size: 12px; }
 
-iframe {
-  width: 100%; }
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 20; }
+
+iframe, blockquote {
+  width: 100%;
+  display: flex; }
