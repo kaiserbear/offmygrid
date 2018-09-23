@@ -30,5 +30,5 @@ app.use(require("express-session")({
 app.use("/", indexRoutes);
 
 app.listen(port, ip, function() {
-    console.log("The Exmouth Market Server Has Started!");
+    console.log("The Off Grid Server Has Started!");
 });

@@ -4,7 +4,19 @@ var router  = express.Router();
 
 //root route
 router.get("/", function(req, res){
-    res.render("landing", res);
+
+	var env = "";
+
+	if (process.env.HOST === "http://localhost") {
+		var env = "local";
+	}
+	else {
+		var env = "prod"
+	}
+
+    res.render("landing", {
+    	env : env
+    });
 });
 
 
