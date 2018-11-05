@@ -6325,7 +6325,6 @@ body {
   text-align: center;
   padding: 0 2rem 150px 2rem; }
   .main img {
-    width: 70%;
     padding: 1rem; }
   .main h2, .main h3, .main h4 {
     color: black; }
@@ -6338,6 +6337,15 @@ body {
     margin: 2rem 0 0 0; }
   .main hr {
     border: 2px solid black; }
+  .main .logo {
+    height: 300px;
+    overflow: hidden;
+    position: relative; }
+    .main .logo img {
+      width: 100%;
+      position: absolute;
+      top: -64px;
+      left: 0px; }
   .main .div {
     margin: 2rem 0;
     padding: 2rem 1rem;
