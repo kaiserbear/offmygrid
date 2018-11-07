@@ -6316,16 +6316,18 @@ html, body {
   height: 100%; }
 
 body {
-  background: url("https://s3.eu-west-2.amazonaws.com/offgridmusic/bg.jpeg");
-  background-size: cover;
   font-family: 'Roboto Slab', serif;
   padding-bottom: 4rem; }
 
 .main {
   text-align: center;
+  background: url("https://s3.eu-west-2.amazonaws.com/offgridmusic/bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: 70% 0;
   padding: 0 2rem 150px 2rem; }
   .main img {
-    padding: 1rem; }
+    padding: 1rem;
+    width: 100%; }
   .main h2, .main h3, .main h4 {
     color: black; }
   .main h2 {
@@ -6393,4 +6395,5 @@ footer {
 
 iframe, blockquote {
   width: 100%;
-  display: flex; }
+  display: flex;
+  min-width: 100% !important; }
