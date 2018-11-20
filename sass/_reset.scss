@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background: black;
+    .modal-backdrop {
+        z-index: 20;
+    }
+}
+
+
+button {
+    cursor: pointer;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+a {
+    color: $white;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: inherit;
+    color: $white;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 55px;
+    padding: 60px 0 15px 0;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 42px;
+    padding: 30px 0 15px 0;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 38px;
+    padding: 30px 0 15px 0;
+}
+
+h4 {
+    font-size: 23px;
+    line-height: 33px;
+    padding: 30px 0 15px 0;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #232333;
+    text-align:left;
+    &.small {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    &.large {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    &.xlarge {
+        font-size: 21px;
+        line-height: 31px;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+h3 {
+    span {
+        text-transform: capitalize;
+    }
+}
