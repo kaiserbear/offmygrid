@@ -24,7 +24,7 @@
     "gulp": "^4.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^3.2.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "method-override": "^2.3.5",
     "mongoose": "^4.13.17",
     "node-sass": "^4.9.3",
